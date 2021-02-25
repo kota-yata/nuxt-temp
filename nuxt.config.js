@@ -40,7 +40,25 @@ export default {
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
     '@nuxtjs/style-resources',
+    'nuxt-webfontloader',
+    'nuxt-fontawesome',
   ],
+  webfontloader: {
+    google: {
+      families: [],
+    },
+  },
+  fontawesome: {
+    imports: [
+      {
+        set: '@fortawesome/free-solid-svg-icons',
+        icons: ['fas'],
+      },
+    ],
+  },
+  styleResources: {
+    scss: ['@/assets/variable.scss'],
+  },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
