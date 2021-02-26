@@ -45,7 +45,7 @@ export default {
   ],
   webfontloader: {
     google: {
-      families: [],
+      families: ['Bebas+Neue'],
     },
   },
   fontawesome: {
