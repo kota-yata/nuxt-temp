@@ -5,9 +5,7 @@ export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'nuxt-temp',
-    htmlAttrs: {
-      lang: 'en',
-    },
+    htmlAttrs: { lang: 'en' },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -43,11 +41,7 @@ export default {
     'nuxt-webfontloader',
     'nuxt-fontawesome',
   ],
-  webfontloader: {
-    google: {
-      families: ['Bebas+Neue'],
-    },
-  },
+  webfontloader: { google: { families: ['Bebas+Neue'] } },
   fontawesome: {
     imports: [
       {
@@ -56,13 +50,11 @@ export default {
       },
     ],
   },
-  styleResources: {
-    scss: ['@/assets/variable.scss'],
-  },
+  styleResources: { scss: ['@/assets/variable.scss'] },
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {},
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
-}
+};
